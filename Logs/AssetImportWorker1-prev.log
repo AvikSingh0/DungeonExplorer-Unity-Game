@@ -1,0 +1,638 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.16f1 (4016570cf34f) revision 4200023'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 16315 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+G:/Assignment 2 Game Development/Final Project
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+62055
+Successfully changed project path to: G:/Assignment 2 Game Development/Final Project
+G:/Assignment 2 Game Development/Final Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [4452] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1639449821 [EditorId] 1639449821 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-LE9KUSH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [4452] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1639449821 [EditorId] 1639449821 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-LE9KUSH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 117.36 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.16f1 (4016570cf34f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path G:/Assignment 2 Game Development/Final Project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 Ti (ID=0x1b82)
+    Vendor:   NVIDIA
+    VRAM:     8073 MB
+    Driver:   31.0.15.2849
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56628
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.012601 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 121.33 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.885 seconds
+Domain Reload Profiling:
+	ReloadAssembly (885ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (632ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (146ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (389ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (121ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (195ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004683 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image G:\Assignment 2 Game Development\Final Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image G:\Assignment 2 Game Development\Final Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 139.03 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.954 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1955ms)
+		BeginReloadAssembly (151ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1640ms)
+			LoadAssemblies (115ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (362ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (1030ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (139ms)
+				BeforeProcessingInitializeOnLoad (144ms)
+				ProcessInitializeOnLoadAttributes (702ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 1.14 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4265 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 130 unused Assets / (1.7 MB). Loaded Objects now: 4702.
+Memory consumption went from 159.2 MB to 157.6 MB.
+Total: 5.524000 ms (FindLiveObjects: 0.452100 ms CreateObjectMapping: 0.185100 ms MarkObjects: 4.166100 ms  DeleteObjects: 0.718900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 17878.437613 seconds.
+  path: Assets/Prefabs/Player/New Player/P_Run_B.fbx
+  artifactKey: Guid(9e8a752929bacc74c908520bd8fd4d9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Player/New Player/P_Run_B.fbx using Guid(9e8a752929bacc74c908520bd8fd4d9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'db9ec137752b126a39eb3db2289c6b1f') in 0.204354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Prefabs/StylizedHandPaintedDungeon(Free)/Prefabs/Door.prefab
+  artifactKey: Guid(9175d08a6bdddeb48afa15d1b714d918) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/StylizedHandPaintedDungeon(Free)/Prefabs/Door.prefab using Guid(9175d08a6bdddeb48afa15d1b714d918) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9fb60339281ce7f3a18744ff48c3eddb') in 0.024136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/LowpolyDungeonAssets/Assets/Mesh/Props/Props_PotionSmall_Red.fbx
+  artifactKey: Guid(3bc4d49d4ab84ca49ba8664f9e79e8a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowpolyDungeonAssets/Assets/Mesh/Props/Props_PotionSmall_Red.fbx using Guid(3bc4d49d4ab84ca49ba8664f9e79e8a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '55407fbc45616ca4a108d2a3bb9a2ff0') in 0.026308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/LowpolyDungeonAssets/Assets/Mesh/Props/Props_PotionBig_Purple.fbx
+  artifactKey: Guid(f2a32cd0a73e6bd428f9ae17066d23f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowpolyDungeonAssets/Assets/Mesh/Props/Props_PotionBig_Purple.fbx using Guid(f2a32cd0a73e6bd428f9ae17066d23f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bcbf4ba0877e2ec2f1b3f9f6ee53bb48') in 0.025985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Prefabs/StylizedHandPaintedDungeon(Free)/Prefabs/Floor.prefab
+  artifactKey: Guid(e348e7143b6247b488737e4be26fb038) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/StylizedHandPaintedDungeon(Free)/Prefabs/Floor.prefab using Guid(e348e7143b6247b488737e4be26fb038) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd97cc1c7754e60b90aef856275e4ae34') in 0.014840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scripts/StateAttack.cs
+  artifactKey: Guid(2487c5f711395e44c9b6787c7ddcd674) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/StateAttack.cs using Guid(2487c5f711395e44c9b6787c7ddcd674) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bed5fe144f73e71506faf51d90b02a76') in 0.017410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/LowpolyDungeonAssets/Assets/Mesh/Props/Props_PotionBig_Blue.fbx
+  artifactKey: Guid(0a31a7f9fa23056479c99568c3d073c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowpolyDungeonAssets/Assets/Mesh/Props/Props_PotionBig_Blue.fbx using Guid(0a31a7f9fa23056479c99568c3d073c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c06f27d192225ab7995aaee96d411f95') in 0.028129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/LowpolyDungeonAssets/Assets/Mesh/Props/Props_Pail.fbx
+  artifactKey: Guid(5caaca51b16b8b344b0bb8593e5904af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowpolyDungeonAssets/Assets/Mesh/Props/Props_Pail.fbx using Guid(5caaca51b16b8b344b0bb8593e5904af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1ff986cdad8935cf00775a70641b8fe9') in 0.028255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(d0c34001a04df49a1b35bf9c51143a7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/PlayerController.cs using Guid(d0c34001a04df49a1b35bf9c51143a7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b33325ca7ac00ceac2e8a472e713cb94') in 0.011494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/MainScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '97ef57b62996b476f2c1925f80218834') in 0.010523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Prefabs/Player/New Player/P_Walk_L.fbx
+  artifactKey: Guid(04d0a19d2e8158c4abd42344f03d817d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Player/New Player/P_Walk_L.fbx using Guid(04d0a19d2e8158c4abd42344f03d817d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a4be72c838dd285a98cede1807a8cec9') in 0.035202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/LowpolyDungeonAssets/Assets/Mesh/Props/Props_WoodenTable_A.fbx
+  artifactKey: Guid(78344275303d6c74faf72b359fe3a20a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowpolyDungeonAssets/Assets/Mesh/Props/Props_WoodenTable_A.fbx using Guid(78344275303d6c74faf72b359fe3a20a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9cd8f834818ea4a15f699cf2b06a9c2d') in 0.025021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/LowpolyDungeonAssets/Assets/Prefabs/Props/Props_Crate.prefab
+  artifactKey: Guid(da853aa377ddc374d9acfb57eaa30736) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowpolyDungeonAssets/Assets/Prefabs/Props/Props_Crate.prefab using Guid(da853aa377ddc374d9acfb57eaa30736) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9554c3261635e7819abe1954bd3aad1b') in 0.017308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/LowpolyDungeonAssets/Assets/Prefabs/Props/Props_Skeleton_Bone.prefab
+  artifactKey: Guid(ceba66e7108261e49bd88983ba7ab196) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowpolyDungeonAssets/Assets/Prefabs/Props/Props_Skeleton_Bone.prefab using Guid(ceba66e7108261e49bd88983ba7ab196) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c299a27a77b999f2b9d6958cab976e7a') in 0.022997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/LowpolyDungeonAssets/Assets/Prefabs/Props/Props_Sword.prefab
+  artifactKey: Guid(d89394273f1af654aa51cffdd5422cf5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowpolyDungeonAssets/Assets/Prefabs/Props/Props_Sword.prefab using Guid(d89394273f1af654aa51cffdd5422cf5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c1c27f657b2db36acf6edb48019ec689') in 0.018040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/LowpolyDungeonAssets/Assets/Prefabs/Props/Props_GoldStack.prefab
+  artifactKey: Guid(a40a8a92b560ab247bc4a1b6a6744af4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowpolyDungeonAssets/Assets/Prefabs/Props/Props_GoldStack.prefab using Guid(a40a8a92b560ab247bc4a1b6a6744af4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6e309c829e76d59ea00ff61d7467b25a') in 0.015092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/LowpolyDungeonAssets/Assets/Prefabs/Props/Props_StoneHolder.prefab
+  artifactKey: Guid(1e7930c115bb2324ab4a060869e1153d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowpolyDungeonAssets/Assets/Prefabs/Props/Props_StoneHolder.prefab using Guid(1e7930c115bb2324ab4a060869e1153d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5d6a18ac45a8e0db280b1547255416c0') in 0.015272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/LowpolyDungeonAssets/Assets/Prefabs/Props/Props_Coffin_Stone_WithCross.prefab
+  artifactKey: Guid(764de3605a1240a49b6fea00321a76a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowpolyDungeonAssets/Assets/Prefabs/Props/Props_Coffin_Stone_WithCross.prefab using Guid(764de3605a1240a49b6fea00321a76a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f5418b2b7e6e9b6d118a976f06bd5922') in 0.017422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Prefabs/Player/New Player/P_Walk_F.fbx
+  artifactKey: Guid(89ff1e9d9df70984c8b58da94599d8d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Player/New Player/P_Walk_F.fbx using Guid(89ff1e9d9df70984c8b58da94599d8d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '319f59705cf0b01c4e9939a3398455a8') in 0.033117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Prefabs/Player/New Player/Paladin WProp J Nordstrom@Sword And Shield Death.fbx
+  artifactKey: Guid(fc99b40382eea924e93ead4b104a903f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Player/New Player/Paladin WProp J Nordstrom@Sword And Shield Death.fbx using Guid(fc99b40382eea924e93ead4b104a903f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b7434f7aeb7b6185a6da4f6442ce0554') in 0.036364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Prefabs/StylizedHandPaintedDungeon(Free)/Prefabs/Lamp_02.prefab
+  artifactKey: Guid(7970c12d6b19a504fbc82353b8a43abe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/StylizedHandPaintedDungeon(Free)/Prefabs/Lamp_02.prefab using Guid(7970c12d6b19a504fbc82353b8a43abe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '23b1c439ad1892bf24eae422e58d1eaa') in 0.018572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/LowpolyDungeonAssets/Assets/Prefabs/Props/Props_Bowl_Purple.prefab
+  artifactKey: Guid(58b5497f239a3444ab5210cba6d51d96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowpolyDungeonAssets/Assets/Prefabs/Props/Props_Bowl_Purple.prefab using Guid(58b5497f239a3444ab5210cba6d51d96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'afc5e4bdc86930c10d591ed2e1f07e42') in 0.017373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Prefabs/Player/SpartanKing/Ccloth.psd
+  artifactKey: Guid(974c13fb9d115f1498ad30645d67c52a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Player/SpartanKing/Ccloth.psd using Guid(974c13fb9d115f1498ad30645d67c52a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6e32b7ce443db90a24448dc1c8350d69') in 0.073174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Prefabs/Player/SpartanKing.prefab
+  artifactKey: Guid(0c7d2828106bf814d8d28a5c39686d95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Player/SpartanKing.prefab using Guid(0c7d2828106bf814d8d28a5c39686d95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '67a1df22432266904a45676ae3010874') in 0.041502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Prefabs/StylizedHandPaintedDungeon(Free)/Originals/Door.fbx
+  artifactKey: Guid(1fed90e8722c1334d9b51e0b56f26e4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/StylizedHandPaintedDungeon(Free)/Originals/Door.fbx using Guid(1fed90e8722c1334d9b51e0b56f26e4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a7a10fef4f0ea8f6ff3a8b7039a9f23c') in 0.027515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/LowpolyDungeonAssets/Assets/Prefabs/Props/Props_Barrel.prefab
+  artifactKey: Guid(d0291f7f977e5864fb0f103d60bfcdb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowpolyDungeonAssets/Assets/Prefabs/Props/Props_Barrel.prefab using Guid(d0291f7f977e5864fb0f103d60bfcdb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5699222e84591f89075db0df10509467') in 0.019715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/LowpolyDungeonAssets/Assets/Mesh/Props/Props_Sword.fbx
+  artifactKey: Guid(02751f16918ef9145af6b1592be02509) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowpolyDungeonAssets/Assets/Mesh/Props/Props_Sword.fbx using Guid(02751f16918ef9145af6b1592be02509) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '85f22c59665cbbf31b97c3594b1f843e') in 0.024332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Prefabs/Player/New Player/Animation/sword and shield kick.fbx
+  artifactKey: Guid(e20836ba5b97c744db2ad96453f1c735) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Player/New Player/Animation/sword and shield kick.fbx using Guid(e20836ba5b97c744db2ad96453f1c735) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5e092dd3f52cf86b920e15c6484c72b0') in 0.037464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Prefabs/Player/New Player/Animation/sword and shield crouching.fbx
+  artifactKey: Guid(a13509d75d40a3444a8918126a1e105f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Player/New Player/Animation/sword and shield crouching.fbx using Guid(a13509d75d40a3444a8918126a1e105f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4fcf81fe42f9c062d8338e63b621b0e3') in 0.033924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Prefabs/Player/New Player/Animation/sword and shield idle.fbx
+  artifactKey: Guid(d48148d16d390784b8401d9a4fea70ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Player/New Player/Animation/sword and shield idle.fbx using Guid(d48148d16d390784b8401d9a4fea70ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '35152b574707a08d088122e531326b93') in 0.041760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Prefabs/Player/New Player/Animation/sword and shield block.fbx
+  artifactKey: Guid(6730b3b6ce3fd824b9c628eaac1b6b25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Player/New Player/Animation/sword and shield block.fbx using Guid(6730b3b6ce3fd824b9c628eaac1b6b25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f8cae87bda6d1db0e500ae0c992d4c46') in 0.040505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Prefabs/Player/New Player/Animation/sword and shield slash (2).fbx
+  artifactKey: Guid(c81134cec879080458051f1f9e4b8b34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Player/New Player/Animation/sword and shield slash (2).fbx using Guid(c81134cec879080458051f1f9e4b8b34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd2d1bd2d18700167f2df83819abee1d5') in 0.040087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Prefabs/Player/New Player/Animation/sword and shield attack (3).fbx
+  artifactKey: Guid(6dd20d41e393e024385677cd08db050f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Player/New Player/Animation/sword and shield attack (3).fbx using Guid(6dd20d41e393e024385677cd08db050f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c078f1bf4b0dc088693825e0914b5fb7') in 0.034103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Prefabs/Player/New Player/Animation/sword and shield power up.fbx
+  artifactKey: Guid(36c88ddb8d5103d4cb135eb276f87641) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Player/New Player/Animation/sword and shield power up.fbx using Guid(36c88ddb8d5103d4cb135eb276f87641) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1361ee65a496c126c5fc90e54ae5c258') in 0.032550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/LowpolyDungeonAssets/Assets/Prefabs/Props/Props_PotionSmall_Red.prefab
+  artifactKey: Guid(a7a9ae6be1309724e81aea94e691f57a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowpolyDungeonAssets/Assets/Prefabs/Props/Props_PotionSmall_Red.prefab using Guid(a7a9ae6be1309724e81aea94e691f57a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '142e7aec884e68c0080026196a1df402') in 0.017357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/LowpolyDungeonAssets/Assets/Mesh/Props/Props_Lightstick.fbx
+  artifactKey: Guid(e14ebf39f4cca1c4c88db36d50e7fa09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowpolyDungeonAssets/Assets/Mesh/Props/Props_Lightstick.fbx using Guid(e14ebf39f4cca1c4c88db36d50e7fa09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '21d1983381a336ba0411ef7f134665ae') in 0.025033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Prefabs/Player/New Player/P_Run_R.fbx
+  artifactKey: Guid(6f44e25708fbded4eb999b2208e8f0f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Player/New Player/P_Run_R.fbx using Guid(6f44e25708fbded4eb999b2208e8f0f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ba1b1c7befffd91d7f0e7819676cf8b6') in 0.032515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Prefabs/Player/New Player/Animation/sword and shield crouch block.fbx
+  artifactKey: Guid(c17a0e2d1711cd44dbe453efd0be60a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Player/New Player/Animation/sword and shield crouch block.fbx using Guid(c17a0e2d1711cd44dbe453efd0be60a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1f57d8fec40aa78bea1292ec9b7a7111') in 0.034951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Prefabs/Player/New Player/Animation/sword and shield crouch idle.fbx
+  artifactKey: Guid(022ff2c65dd6f824ab205126183fd8a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Player/New Player/Animation/sword and shield crouch idle.fbx using Guid(022ff2c65dd6f824ab205126183fd8a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8408ef08021329886b111a65dbd230aa') in 0.037125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Prefabs/StylizedHandPaintedDungeon(Free)/Demo/Demo_Scene/Demo_Scene.unity
+  artifactKey: Guid(1c6d75eaa80797041a20dd6a10c1f6d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/StylizedHandPaintedDungeon(Free)/Demo/Demo_Scene/Demo_Scene.unity using Guid(1c6d75eaa80797041a20dd6a10c1f6d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3066ff8436cfddab9f9491e6bb3c1f34') in 0.011052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Prefabs/Player/SpartanKing/Materials/Cskin.mat
+  artifactKey: Guid(6d43ce3653b81854b8079d63b237edd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Player/SpartanKing/Materials/Cskin.mat using Guid(6d43ce3653b81854b8079d63b237edd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a1b932e56bc4672a8dacf2e1724d30f2') in 0.050089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Prefabs/Player/SpartanKing/Materials/Csword.mat
+  artifactKey: Guid(bc2110781daed694ebe7f0b201f8c2d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Player/SpartanKing/Materials/Csword.mat using Guid(bc2110781daed694ebe7f0b201f8c2d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6eecdcf4230d5ed64446e9c5d612d154') in 0.026006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scripts/StateDead.cs
+  artifactKey: Guid(20ef2591291f841368d8e33542758847) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/StateDead.cs using Guid(20ef2591291f841368d8e33542758847) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6a40cf11f445bf8d092fb0cd24bc5dda') in 0.011391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/LowpolyDungeonAssets/Assets/Mesh/Props/Props_Vase_Purple.fbx
+  artifactKey: Guid(096e3099085d8fb44aa34520f1ffb6c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowpolyDungeonAssets/Assets/Mesh/Props/Props_Vase_Purple.fbx using Guid(096e3099085d8fb44aa34520f1ffb6c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1daeda701c5b9ff3d02423cb955d7490') in 0.023992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/LowpolyDungeonAssets/Assets/Prefabs/Props/Props_GoldPile.prefab
+  artifactKey: Guid(3283d79c16b08544894c4416b9eecfc8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowpolyDungeonAssets/Assets/Prefabs/Props/Props_GoldPile.prefab using Guid(3283d79c16b08544894c4416b9eecfc8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7c6501ac4deb6026ac464bdf5a528b7a') in 0.015934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Prefabs/Player/New Player/Animation/sword and shield slash (4).fbx
+  artifactKey: Guid(b0705e6f7165c1b46817f23b16dd3635) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Player/New Player/Animation/sword and shield slash (4).fbx using Guid(b0705e6f7165c1b46817f23b16dd3635) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cae6305fbada6d332531db19dad23146') in 0.037654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/LowpolyDungeonAssets/Assets/Mesh/Props/Props_Wall_LightStick.fbx
+  artifactKey: Guid(94a963044347f1f44a95dcc57f8c1145) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowpolyDungeonAssets/Assets/Mesh/Props/Props_Wall_LightStick.fbx using Guid(94a963044347f1f44a95dcc57f8c1145) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '78666aa258191849f81d03e9ed42e054') in 0.024613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Prefabs/Player/New Player/Animation/draw sword 2.fbx
+  artifactKey: Guid(9f97e8450aa413d449382db7bc2371c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Player/New Player/Animation/draw sword 2.fbx using Guid(9f97e8450aa413d449382db7bc2371c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4975171e30a4af7388b837fd1314f530') in 0.034926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/LowpolyDungeonAssets/Assets/Prefabs/Props/Props_PotionBig_Blue.prefab
+  artifactKey: Guid(49bdb26a254ee6642babd4ee87b0175a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowpolyDungeonAssets/Assets/Prefabs/Props/Props_PotionBig_Blue.prefab using Guid(49bdb26a254ee6642babd4ee87b0175a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b2c21f1a101e6e7800f0733aa17e9b3c') in 0.017550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Prefabs/Player/New Player/Animation/sword and shield casting (2).fbx
+  artifactKey: Guid(76284ec8c4571ad4a94b94f73eef58ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Player/New Player/Animation/sword and shield casting (2).fbx using Guid(76284ec8c4571ad4a94b94f73eef58ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '76da870afea62461e361bce5640415b0') in 0.041158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/LowpolyDungeonAssets/Assets/Prefabs/Props/Props_Candle_Fivestick.prefab
+  artifactKey: Guid(ce232cf78c8168444b76d824e74bfabd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowpolyDungeonAssets/Assets/Prefabs/Props/Props_Candle_Fivestick.prefab using Guid(ce232cf78c8168444b76d824e74bfabd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a783f3b431c5243ad7bb3edac3d4e6b9') in 0.017371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Prefabs/Player/New Player/Animation/sword and shield walk.fbx
+  artifactKey: Guid(5e70824240682994a83fe086d0e4de9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Player/New Player/Animation/sword and shield walk.fbx using Guid(5e70824240682994a83fe086d0e4de9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a983d4d32570176a034333f9e4c6195d') in 0.033938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Prefabs/Player/SpartanKing/Materials/Cgold.mat
+  artifactKey: Guid(dfe1b1516f2ccea4a96e91a3a5f6eadf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Player/SpartanKing/Materials/Cgold.mat using Guid(dfe1b1516f2ccea4a96e91a3a5f6eadf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '10c1aa4a946bae4d5ecf0af905a9d6e1') in 0.032192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Prefabs/Player/New Player/Animation/sword and shield jump.fbx
+  artifactKey: Guid(106805fb209257441acee60a7581372c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Player/New Player/Animation/sword and shield jump.fbx using Guid(106805fb209257441acee60a7581372c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9a24082ab6996dae7e095f9847860ab0') in 0.035059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/LowpolyDungeonAssets/Assets/Material/ColorTexture.mat
+  artifactKey: Guid(cb44255f7c74b4d4b9f4186643d4afc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowpolyDungeonAssets/Assets/Material/ColorTexture.mat using Guid(cb44255f7c74b4d4b9f4186643d4afc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '49c631490311080b3a165e5310840529') in 0.031018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/LowpolyDungeonAssets/Assets/Mesh/Props/Props_Chest.fbx
+  artifactKey: Guid(eefec79bb2127ac43b18f4b669be81a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowpolyDungeonAssets/Assets/Mesh/Props/Props_Chest.fbx using Guid(eefec79bb2127ac43b18f4b669be81a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd38eb8263a48440e5cf4310a29767c78') in 0.027671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Prefabs/Player/New Player/Animation/draw sword 1.fbx
+  artifactKey: Guid(dde85a32e68461640bc039e766c1457c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Player/New Player/Animation/draw sword 1.fbx using Guid(dde85a32e68461640bc039e766c1457c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ae7c655d477e4a03de40931dda0281ed') in 0.032955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Prefabs/Player/New Player/Paladin WProp J Nordstrom@One Hand Sword Combo.fbx
+  artifactKey: Guid(4e7178c4ba1e8bc4aac1ed186318fc67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Player/New Player/Paladin WProp J Nordstrom@One Hand Sword Combo.fbx using Guid(4e7178c4ba1e8bc4aac1ed186318fc67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f7b9b88cc4f22d4f753dfbfa1b51f431') in 0.036336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Prefabs/StylizedHandPaintedDungeon(Free)/Demo/Demo_Scene/Demo_Scene/LightingData.asset
+  artifactKey: Guid(a39fe0fef3aa42e40867a60c55b728bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/StylizedHandPaintedDungeon(Free)/Demo/Demo_Scene/Demo_Scene/LightingData.asset using Guid(a39fe0fef3aa42e40867a60c55b728bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '521d9ce2d481a7e4023fdb10f8c6141b') in 0.068400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/LowpolyDungeonAssets/Assets/Mesh/Props/Props_Crate.fbx
+  artifactKey: Guid(34bb02ede5cacfd41be006299c2f71c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowpolyDungeonAssets/Assets/Mesh/Props/Props_Crate.fbx using Guid(34bb02ede5cacfd41be006299c2f71c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '86e3f7a38750565bace95c4dbc5dc950') in 0.020554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/LowpolyDungeonAssets/Assets/Mesh/Props/Props_Candle_Threestick.fbx
+  artifactKey: Guid(b09c7daa4c2d75248b8958ee5fcf32c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowpolyDungeonAssets/Assets/Mesh/Props/Props_Candle_Threestick.fbx using Guid(b09c7daa4c2d75248b8958ee5fcf32c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9ebbae568b24ed3b5ef1df914760c746') in 0.021901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Prefabs/Player/New Player/Animation/sword and shield impact (2).fbx
+  artifactKey: Guid(15572ce7583e7b244a751058868afdef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Player/New Player/Animation/sword and shield impact (2).fbx using Guid(15572ce7583e7b244a751058868afdef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cbffc2b329dc9fb61ac04a96e861e484') in 0.033263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ProBuilder Data/Default Color Palette.asset
+  artifactKey: Guid(003615b071fb12047bf07a52b8232afd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ProBuilder Data/Default Color Palette.asset using Guid(003615b071fb12047bf07a52b8232afd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8c0c04dbb044a0cd81fe5944ccf64240') in 0.023330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Prefabs/Player/New Player/Animation/sword and shield crouch.fbx
+  artifactKey: Guid(9371057b961b4304987f2fc83d0c1ad3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Player/New Player/Animation/sword and shield crouch.fbx using Guid(9371057b961b4304987f2fc83d0c1ad3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'de01afaacddffd0a77a03cb3aa6d800e') in 0.031280 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.52 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (1.6 MB). Loaded Objects now: 4702.
+Memory consumption went from 70.3 MB to 68.7 MB.
+Total: 5.637700 ms (FindLiveObjects: 0.509500 ms CreateObjectMapping: 0.210300 ms MarkObjects: 4.442700 ms  DeleteObjects: 0.474300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
